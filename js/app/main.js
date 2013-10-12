@@ -1,5 +1,5 @@
-define(["jquery"], function($) {
+define(["jquery", "impress"], function($) {
     $(function() {
-
+	impress().init();
     });
 });

@@ -17,32 +17,33 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+	<div class="impress">
+		<div class="step slide" data-x="-1000" data-y="-1500">
+			<h1>Magnus Bertilsson, Sweden</h1>
+			magnus.bertilsson@gmail.com
+			magnus.bertilsson
+			#mrbertilsson
+		</div>
 
-	<div>
-		<h1>Magnus Bertilsson, Sweden</h1>
-		magnus.bertilsson@gmail.com
-		magnus.bertilsson
-		#mrbertilsson
-	</div>
+		<div class="step slide">
+			<h1>Education</h1>
+		</div>
 
-	<div>
-		<h1>Education</h1>
-	</div>
+		<div class="step slide">
+			<h1>Experience</h1>
+		</div>
 
-	<div>
-		<h1>Experience</h1>
-	</div>
+		<div class="step slide">
+			<h1>Other</h1>
+		</div>
 
-	<div>
-		<h1>Other</h1>
-	</div>
+		<div class="step slide">
+			<h1>Hobbies</h1>
+		</div>
 
-	<div>
-		<h1>Hobbies</h1>
-	</div>
-
-	<div>
-		<h1>Properties</h1>
+		<div class="step slide">
+			<h1>Properties</h1>
+		</div>
 	</div>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
