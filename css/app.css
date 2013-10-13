@@ -1,22 +1,29 @@
+em {
+	font-size: 25px;
+}
+
 ul.none {
 	list-style: none;
 	padding: 0;
 }
 
 li.email:before {
+	color: #009FDA;
 	font-family: FontAwesome;
 	content: "\f003";
 	padding-right: 15px;
 }
 
 li.facebook:before {
+	color: #009FDA;
 	font-family: FontAwesome;
 	content: "\f09a";
-	padding-left: 10px;
-	padding-right: 20px;
+	padding-left: 9px;    
+	padding-right: 22px;
 }
 
 li.twitter:before {
+	color: #009FDA;
 	font-family: FontAwesome;
 	content: "\f099";
 	padding-right: 15px;
@@ -73,10 +80,11 @@ i, em { font-style: italic }
     ... and give links a nice look.
 */
 a {
-    color: inherit;
+	color: #009FDA;
+	text-decoration: none;
     padding: 0 0.1em;
-    background: rgba(255,255,255,0.5);
-
+    background: #fff;
+/*	text-shadow: -1px -1px 2px rgba(100, 100, 100, 0.9); */
     -webkit-transition: 0.5s;
     -moz-transition:    0.5s;
     -ms-transition:     0.5s;
