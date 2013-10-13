@@ -10,7 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="/css/app.css">
+	<link rel="stylesheet" href="css/app.css">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<script data-main="js/app" src="js/lib/require.js"></script>
