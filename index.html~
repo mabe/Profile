@@ -10,6 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" >
 	<link rel="stylesheet" href="css/app.css">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -20,19 +21,27 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 	<div id="impress">
-		<div class="step slide" data-x="-1000" data-y="-1500">
+		<div id="contact" class="step slide" data-x="-1000" data-y="-1500">
 			<h1 class="ui huge header">Magnus Bertilsson, Sweden</h1>
-			magnus.bertilsson@gmail.com
-			magnus.bertilsson
-			#mrbertilsson
+
+			<ul class="none">
+				<li class="email"><a href="mailto:magnus.bertilsson@gmail.com" target="_blank">magnus.bertilsson@gmail.com</a></li>
+				<li class="facebook"><a href="http://www.facebook.com/magnus.bertilsson"target="_blank">magnus.bertilsson</a></li>
+				<li class="twitter"><a href="http://www.twitter.com/mrbertilsson" target="_blank">#mrbertilsson</a></li>
+			</ul>
 		</div>
 
 		<div class="step slide" data-x="0" data-y="-1500">
-			<h1>Education</h1>
+			<h1>Experience</h1>
+
+			<ul>
+				<li><a href="http://www.motesplatsen.se" target="_blank">M&ouml;tesplatsen</a> <em>June 2009 - August 2009</em></li>
+				<li><a href="http://www.tappa.se" target="_blank">Tappa.se</a> </li>
+			</ul>
 		</div>
 
 		<div class="step slide" data-x="1000" data-y="-1500">
-			<h1>Experience</h1>
+			<h1>Education</h1>
 		</div>
 
 		<div class="step slide" data-x="2000" data-y="-1500">

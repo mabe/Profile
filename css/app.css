@@ -1,3 +1,27 @@
+ul.none {
+	list-style: none;
+	padding: 0;
+}
+
+li.email:before {
+	font-family: FontAwesome;
+	content: "\f003";
+	padding-right: 15px;
+}
+
+li.facebook:before {
+	font-family: FontAwesome;
+	content: "\f09a";
+	padding-left: 10px;
+	padding-right: 20px;
+}
+
+li.twitter:before {
+	font-family: FontAwesome;
+	content: "\f099";
+	padding-right: 15px;
+}
+
 /*
     So you like the style of impress.js demo?
     Or maybe you are just curious how it was done?
@@ -50,11 +74,8 @@ i, em { font-style: italic }
 */
 a {
     color: inherit;
-    text-decoration: none;
     padding: 0 0.1em;
     background: rgba(255,255,255,0.5);
-    text-shadow: -1px -1px 2px rgba(100,100,100,0.9);
-    border-radius: 0.2em;
 
     -webkit-transition: 0.5s;
     -moz-transition:    0.5s;
