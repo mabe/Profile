@@ -12,7 +12,8 @@
 
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" >
 	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.3.4/css/semantic.min.css" />
-	<!--<link rel="stylesheet" href="css/app.css">-->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/app.css">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<script data-main="js/app" src="js/lib/require.js"></script>
@@ -21,57 +22,71 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-	<div id="impress">
-		<div id="contact" class="step slide" data-x="-1000" data-y="-1500">
-			<h1 class="ui huge header">Magnus Bertilsson, Sweden</h1>
+	<div class="ui vertically divided grid">
+		<div class="one column row">
+			<section class="column">
+				<h1 class="ui huge header">Magnus Bertilsson, Sweden</h1>
 
-			<ul class="none">
-				<li class="email"><a href="mailto:magnus.bertilsson@gmail.com" target="_blank">magnus.bertilsson@gmail.com</a></li>
-				<li class="facebook"><a href="http://www.facebook.com/magnus.bertilsson"target="_blank">magnus.bertilsson</a></li>
-				<li class="twitter"><a href="http://www.twitter.com/mrbertilsson" target="_blank">@mrbertilsson</a></li>
-			</ul>
+				<div class="ui list">
+					<div class="item">
+						<i class="mail outline icon"></i>
+						<div class="content"><a class="header" href="mailto:magnus.bertilsson@gmail.com" target="_blank">magnus.bertilsson@gmail.com</a></div>
+					</div>
+					<div class="item">
+						<i class="facebook icon"></i>
+						<div class="content"><a class="header" href="http://www.facebook.com/magnus.bertilsson"target="_blank">magnus.bertilsson</a></div>
+					</div>
+					<div class="item">
+						<i class="twitter icon"></i>
+						<div class="content"><a class="header" href="http://www.twitter.com/mrbertilsson" target="_blank">@mrbertilsson</a></div>
+					</div>
+				</div>
+			</section>
 		</div>
 
-		<div class="step slide" data-x="0" data-y="-1500">
-			<h1>Experience</h1>
+		<div class="two column row">
+			<section class="column">
+				<h2 class="ui header">Experience</h2>
 
-			<ul>
-				<li><a href="http://www.bokia.se" target="_blank">Bokia.se</a> - <em>Developer (October 2011 - Current)</em></li>
-				<li><a href="http://www.tappa.se" target="_blank">Tappa.se</a> - <em>Developer (August 2009 - October 2011)</em></li>
-				<li><a href="http://www.motesplatsen.se" target="_blank">M&ouml;tesplatsen</a> - <em>Developer (June 2009 - August 2009)</em></li>
-			</ul>
+				<ul class="ui bulleted list">
+					<li><a href="http://www.bokia.se" target="_blank">Bokia.se</a> - <em>Developer (October 2011 - Current)</em></li>
+					<li><a href="http://www.tappa.se" target="_blank">Tappa.se</a> - <em>Developer (August 2009 - October 2011)</em></li>
+					<li><a href="http://www.motesplatsen.se" target="_blank">M&ouml;tesplatsen</a> - <em>Developer (June 2009 - August 2009)</em></li>
+				</ul>
+			</section>
+
+			<section class="column">
+				<h2 class="ui header">Education</h2>
+
+				<ul class="ui bulleted list">
+					<li>Systemdeveloper .net, Ky - <em>LBS Ljud och Bild skolan Varberg / Campus Varberg (2007 - 2009)</em></li>
+					<li>IT-Programmet, Gymnasiet - <em>LBS Ljud och Bild skolan Varberg (2003 - 2006)</em></li>
+				</ul>
+			</section>
 		</div>
 
-		<div class="step slide" data-x="1000" data-y="-1500">
-			<h1>Education</h1>
+		<div class="three column row">
+			<section class="column">
+				<h3 class="ui header">Hobbies</h3>
 
-			<ul>
-				<li>Systemdeveloper .net, Ky - <em>LBS Ljud och Bild skolan Varberg / Campus Varberg (2007 - 2009)</em>
-</li>
-				<li>IT-Programmet, Gymnasiet - <em>LBS Ljud och Bild skolan Varberg (2003 - 2006)</em></li>
-			</ul>
-		</div>
+				<ul class="ui bulleted list">
+					<li>Programming</li>
+					<li>Socialdancing
+						<ul>
+							<li><a href="http://sv.wikipedia.org/wiki/Bugg" target="_blank">Bugg</a></li>
+							<li><a href="http://sv.wikipedia.org/wiki/Foxtrot_(dans)" target="_blank">Foxtrot</a></li>
+						<ul>
+					</li>
+				</ul>
+			</section>
 
-		<div class="step slide" data-x="2000" data-y="-1500">
-			<h1>Hobbies</h1>
+			<section class="column">
+				<h3 class="ui header">Properties</h3>
+			</section>
 
-			<ul>
-				<li>Programming</li>
-				<li>Socialdancing
-					<ul>
-						<li><a href="http://sv.wikipedia.org/wiki/Bugg" target="_blank">Bugg</a></li>
-						<li><a href="http://sv.wikipedia.org/wiki/Foxtrot_(dans)" target="_blank">Foxtrot</a></li>
-					<ul>
-				</li>
-			</ul>
-		</div>
-
-		<div class="step slide" data-x="3000" data-y="-1500">
-			<h1>Properties</h1>
-		</div>
-
-		<div class="step slide" data-x="4000" data-y="-1500">
-			<h1>Other</h1>
+			<section class="column">
+				<h3 class="ui header">Other</h3>
+			</section>
 		</div>
 	</div>
 
