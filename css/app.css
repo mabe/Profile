@@ -151,6 +151,8 @@ a:hover {
 
 #header h1 {
     margin: 0 0 0.25em 0;
+    font-weight: normal;
+    color: #ffffff;
 }
 
 #header p {
