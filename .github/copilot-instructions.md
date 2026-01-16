@@ -162,10 +162,9 @@ python3 -m http.server 8080
 **Problem:** Running npm install or similar
 **Solution:** No dependencies to install. Everything is already in the repo or loaded via CDN.
 
-### Known Issue: Backup Files
+### Backup Files
 - `.gitignore` excludes files ending in `~` (editor backup files)
-- Some backup files exist in repo: `js/app.js~`, `js/app/main.js~`, `js/lib/impress.js~`
-- These are harmless legacy files, do not affect the site
+- These files are automatically ignored and won't be committed
 
 ## GitHub Pages Configuration
 
